@@ -1,8 +1,8 @@
 {
-  "name": "My Add-on",
+  "name": "NPM Export Import",
   "version": "0.1.0",
   "slug": "npm_export_import",
-  "description": "Nginx Proxy Manager Export/Import Add-on",
+  "description": "Export and Import your Nginx Proxy Manager configurations",
   "arch": ["amd64", "armv7", "aarch64"],
   "startup": "services",
   "boot": "auto",
