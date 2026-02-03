@@ -1,0 +1,14 @@
+{
+  "name": "My Add-on",
+  "version": "0.1.0",
+  "slug": "npm_export_import",
+  "description": "Nginx Proxy Manager Export/Import Add-on",
+  "arch": ["amd64", "armv7", "aarch64"],
+  "startup": "services",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {
+    "8080/tcp": 8080
+  }
+}

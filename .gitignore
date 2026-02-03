@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python tooling
+.coverage
+.coverage.*
+htmlcov/
+dist/
+build/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.mypy_cache/
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Home Assistant / addon specific
+secrets.yaml
+secrets.*
+.cache/
+.home-assistant_v2.db
+
+# Docker / artifact outputs
+docker-compose.override.yml
+*.tar
+*.log
+
+# Local config / environment files
+.env
+.env.*
+local_settings.py
+
+# Misc
+*.swp
+*.bak
